@@ -78,8 +78,8 @@ def home():
         # Link(rel='stylesheet', href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css'),
         Link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css'),
         Link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.theme.min.css'),
-        Link(rel='stylesheet', href='styles/style.css'),
-        Link(rel='stylesheet', href='styles/style2.css'),
+        Link(rel='stylesheet', href='my_portfolio/styles/style.css'),
+        Link(rel='stylesheet', href='my_portfolio/styles/style2.css'),
         Title('Sanket - AI Engineer | Portfolio'),
         Style(".material-symbols-outlined {\r\n            font-variation-settings:\r\n            'FILL' 0,\r\n            'wght' 400,\r\n            'GRAD' 0,\r\n            'opsz' 48\r\n        }\r\n        /* Custom Scrollbar */\r\n        ::-webkit-scrollbar {\r\n            width: 10px;\r\n        }\r\n\r\n        ::-webkit-scrollbar-track {\r\n            background: #f1f1f1;\r\n        }\r\n\r\n        ::-webkit-scrollbar-thumb {\r\n            background: #888;\r\n        }\r\n\r\n        ::-webkit-scrollbar-thumb:hover {\r\n            background: #555;\r\n        }\r\n\r\n        /* Webcam Styling */\r\n        #camera {\r\n            width: 320px;\r\n            height: 240px;\r\n            border: 1px solid black;\r\n        }\r\n\r\n        .invisible {\r\n            display: none;\r\n        }\r\n\r\n        /* Card Layout - No Tailwind */\r\n        .card-container {\r\n            display: flex;\r\n            flex-wrap: wrap;\r\n            justify-content: center;\r\n        }\r\n\r\n        .card {\r\n            background-color: #3e4b50;\r\n            border-radius: 8px;\r\n            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);\r\n            margin: 1rem;\r\n            overflow: hidden; /* Ensure image stays within card borders */\r\n            width: 250px; /* Adjust width as needed */\r\n            transition: transform 0.3s ease; /* Add a smooth transition */\r\n        }\r\n\r\n        .card:hover {\r\n            transform: translateY(-5px); /* Lift the card slightly on hover */\r\n        }\r\n\r\n        .card img {\r\n            width: 100%;\r\n            height: 200px; /* Adjust height as needed */\r\n            object-fit: cover; /* Ensure image covers the area nicely */\r\n        }\r\n\r\n        .card-body {\r\n            padding: 1rem;\r\n        }\r\n\r\n        .card-title {\r\n            font-size: 1.25rem;\r\n            margin-bottom: 0.5rem;\r\n        }\r\n\r\n        .card-text {\r\n            color: #eeeeee;\r\n            font-size: 0.9rem;\r\n        }"),
         Style("""
@@ -179,7 +179,7 @@ def home():
                                 ),
                                 G(
                                     Path(d='M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 \r\n                                    165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 \r\n                                    129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 \r\n                                    -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z'),
-                                    Image(x='25', y='12',width="160", height="160", **{'xlink:href':'images/symbol.png'}, 
+                                    Image(x='25', y='12',width="160", height="160", **{'xlink:href':'my_portfolio/images/symbol.png'}, 
                                         cls='home__blob-img'
                                         ),
                                     mask='url(#mask0)'
@@ -437,9 +437,9 @@ def home():
         Script(type='text/javascript', src='https://code.jquery.com/jquery-1.12.0.min.js'),
 
         Script(type='text/javascript', src='https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js'),
-        Script(src='js_scripts/script.js'),
+        Script(src='my_portfolio/js_scripts/script.js'),
         
-        Script(src='js_scripts/script2.js')
+        Script(src='my_portfolio/js_scripts/script2.js')
     ),
     lang='en'
     )
