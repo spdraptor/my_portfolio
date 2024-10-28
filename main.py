@@ -165,7 +165,7 @@ def home():
                             cls='home__description'
                         ),
                         
-                        Button('See Resume',onclick="window.open('https://bronze-ivy-52.tiiny.site', '_blank');" ,cls='outline'),
+                        Button('See Resume',onclick="window.open('https://drive.google.com/file/d/1BhYrlFYxDiTXEj-7DyDDj4Fgn-Pgx0o1/view?usp=sharing', '_blank');" ,cls='outline'),
                         Span(),
                         Button('Contact',onclick="window.location.href = '#contact';", cls='outline'),
                         
