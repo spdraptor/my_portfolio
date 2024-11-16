@@ -95,6 +95,7 @@ def home():
         Main(
             Nav(
                 Ul(
+                    Link(rel='icon', href='my_portfolio/images/dinoLogo.png'),
                     Li(
                         Strong('Sanket Dhuri')
                     )
