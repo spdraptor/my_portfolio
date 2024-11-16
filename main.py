@@ -89,13 +89,16 @@ def home():
               .centered {
         text-align: center;
     }
+    .btn-space {
+    margin-right: 15px;
+}
               """)
     ),
     Body(
         Main(
             Nav(
                 Ul(
-                    Link(rel='icon', href='my_portfolio/images/dinoLogo.png'),
+                    Image(src='images/dinoLogo.png',style="width:40px"),
                     Li(
                         Strong('Sanket Dhuri')
                     )
@@ -167,11 +170,11 @@ def home():
                             Br(),
                             cls='home__description'
                         ),
-                        
-                        Button('See Resume',onclick="window.open('https://drive.google.com/file/d/1Wrusv4JYEHxucI59XdFPHw_3LMpW_2E4/view?usp=sharing', '_blank');" ,cls='outline'),
-                        Span(),
-                        Button('Contact',onclick="window.location.href = '#contact';", cls='outline'),
-                        
+                        Container(
+                        Button('See Resume',onclick="window.open('https://drive.google.com/file/d/1Wrusv4JYEHxucI59XdFPHw_3LMpW_2E4/view?usp=sharing', '_blank');" ,cls='outline btn-space'),
+                        # Span(),
+                        Button('Contact',onclick="window.location.href = '#contact';", cls='outline btn-space'),
+                        )
                     ),
                     Div(              
                             Svg(
