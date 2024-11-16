@@ -98,7 +98,6 @@ def home():
         Main(
             Nav(
                 Ul(
-                    Image(src='images/dinoLogo.png',style="width:40px"),
                     Li(
                         Strong('Sanket Dhuri')
                     )
